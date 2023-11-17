@@ -23,19 +23,26 @@ body {
     float: left;
 }
 
-.lower1, .lower2, .lower3 {
-    width: 33.33%;
-    float: left;
-}
+
 
 
 .lower1, .lower2, .lower3 {
-    width: 33.33%;
+    width: 30%;
     float: left;
     box-sizing: border-box; 
-    padding: 10px; 
+    /* padding: 20px;  */
+    background-color:rgb(59, 0, 59); ;
+    color: aliceblue;
+    border-radius: 5%;
+    margin-right: 10px;
 }
-
+.lower2{
+    margin-top: 1%;
+}
+.lower3{
+    margin-top: 3%;
+    
+}
 .profile {
     overflow: hidden; 
 }
@@ -43,6 +50,7 @@ body {
 .img {
     width: 50%;
     float: left;
+    margin-top: 1px;
 }
 
 .details {
@@ -56,4 +64,35 @@ h2{
 .rate1 {
     background-color:rgba(230, 230, 230, 0.842) ;
     border: 2px;
+    margin-top: 8%;
+    margin-right: 15%;
 }
+h6{
+    color: blueviolet;
+}
+img{
+    border-radius: 50%;
+    margin-top: 5%;
+}
+.rate2{
+    background-color:rgba(230, 230, 230, 0.842) ;
+    border: 2px;
+    margin-top: 4%;
+    margin-left: 5%;
+    max-width: 40vw;
+}
+.rate3{
+    background-color:rgba(230, 230, 230, 0.842) ;
+    border: 2px;
+    margin-top: 4%;
+    margin-left: 10%;
+
+}
+.rate1, .rate2, .rate3{
+    height:5vh;
+    border-radius: 5px;
+}
+ion-icon[name="star-sharp"] {
+    color: gold; 
+    font-size: 24px; 
+  }
